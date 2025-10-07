@@ -1,0 +1,15 @@
+HTML-Template
+
+https://github.com/mdarifulislamdev/HTML-Template.git
+
+echo "# HTML-Template" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mdarifulislamdev/HTML-Template.git
+git push -u origin main
+
+git remote add origin https://github.com/mdarifulislamdev/HTML-Template.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A full HTML demo with all tags">
+    <meta name="keywords" content="HTML, template, full tags">
+    <meta name="author" content="Helpful Boy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full HTML Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My HTML Template</h1>
+    <p>This is a sample template using most HTML tags.</p>
+</header>
+
+<nav>
+    <h2>HELPFULL BOY</h2>
+    <ul>
+        <li><a href="#article">Article</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#media">Media</a></li>
+    </ul>
+</nav>
+
+<main>
+    <article id="article">
+        <h2>About This Page</h2>
+        <p><strong>HTML</strong> (HyperText Markup Language) is used to create <em>web pages</em>. This example shows all important tags.</p>
+        <blockquote cite="https://developer.mozilla.org/">“HTML is the standard markup language for documents designed to be displayed in a web browser.”</blockquote>
+        <abbr title="Cascading Style Sheets">CSS</abbr> is used for styling.
+        <address>Contact us at: info@example.com</address>
+        <code>&lt;div&gt;This is a code block&lt;/div&gt;</code>
+    </article>
+
+    <section>
+        <h3>Lists</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Practice CSS</li>
+            <li>Build Projects</li>
+        </ol>
+        <dl>
+            <dt>HTML</dt>
+            <dd>A markup language for web pages</dd>
+            <dt>CSS</dt>
+            <dd>Styles the HTML content</dd>
+        </dl>
+    </section>
+
+    <section id="form">
+        <h3>Contact Form</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="none">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label><input type="checkbox" name="subscribe"> Subscribe to newsletter</label>
+
+            <label><input type="radio" name="plan" value="free"> Free</label>
+            <label><input type="radio" name="plan" value="pro"> Pro</label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="table">
+        <h3>HTML Table Example</h3>
+        <table>
+            <caption>Course Table</caption>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>1 Week</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>2 Weeks</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">More courses coming soon!</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="media">
+        <h3>Media Elements</h3>
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+            <figcaption>This is an example image.</figcaption>
+        </figure>
+
+        <video width="320" height="240" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <details>
+            <summary>Click to read more</summary>
+            <p>This section shows how to use the <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> tags.</p>
+        </details>
+
+        <progress value="70" max="100"></progress>
+        <meter value="0.6">60%</meter>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
+
+<script>
+    console.log("Welcome to the HTML Template!");
+</script>
+
+</body>
+</html>
